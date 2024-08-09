@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+aiomysql = "*"
+apscheduler = "*"
+flask-cors = "*"
+nest-asyncio = "*"
+flask = {extras = ["test"], version = "*"}
+requests = "*"
+httpx = "*"
+pytest = "*"
+pytest-asyncio = "*"
+aioresponses = "*"
+
+[requires]
+python_version = "3.10"
